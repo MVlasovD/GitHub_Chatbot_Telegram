@@ -1,1 +1,3 @@
-# GitHub_Chatbot_Telegram
+# GitHub Chatbot Telegram
+
+## Getting repos from GITHUB

@@ -1,10 +1,14 @@
-package net.vlasov.guthub_bot.request;
+package net.vlasov.guthub_bot.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
 import java.util.Date;
 
+@Data
+@NoArgsConstructor
 public class Repo {
 
     public int id;

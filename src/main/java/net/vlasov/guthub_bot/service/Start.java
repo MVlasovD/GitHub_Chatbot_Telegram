@@ -1,5 +1,7 @@
-package net.vlasov.guthub_bot.request;
+package net.vlasov.guthub_bot.service;
 
+import net.vlasov.guthub_bot.dto.Repo;
+import net.vlasov.guthub_bot.service.GitHubService;
 import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

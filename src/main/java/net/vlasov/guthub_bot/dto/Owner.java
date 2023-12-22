@@ -1,5 +1,10 @@
-package net.vlasov.guthub_bot.request;
+package net.vlasov.guthub_bot.dto;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
 public class Owner{
     public String login;
     public int id;
